@@ -5,10 +5,7 @@ import (
 	"crypto/tls"
 	"net"
 	"strconv"
-	"sync"
 )
-
-var mutex sync.Mutex
 
 func Version() string {
 	return "0.2.2"
